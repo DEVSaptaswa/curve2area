@@ -116,5 +116,3 @@ Open to contributions! Fork the repo, create a new branch, and submit a PR.
 
 MIT License — free to use, modify, and distribute.
 ```
-
-Let me know if you want this turned into an actual `README.md` file in your project, or if you'd like a badge section or project screenshot included!
