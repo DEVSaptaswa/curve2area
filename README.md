@@ -24,18 +24,16 @@
 ```
 curve2area/
 ├── app/
+    ├── static/                  # CSS / JS assets
+│   ├── templates/
+│   │   ├── index.html           # Main form (upload or input)
+│   │   └── result.html          # Display results
 │   ├── image_processing.py      # Handles image-based curve extraction
 │   ├── integration.py           # Numerical integration logic
 │   └── equation_plotter.py      # Parses, plots, and integrates equations
 │
-├── web/
-│   ├── static/                  # CSS / JS assets
-│   ├── templates/
-│   │   ├── index.html           # Main form (upload or input)
-│   │   └── result.html          # Display results
-│   └── app.py                   # Flask application logic
-│
 ├── uploads/                     # Temporary upload folder
+├── app.py                       # Flask application logic
 ├── requirements.txt             # Python dependencies
 ├── .gitignore                   # Ignore virtual env and temporary files
 └── README.md                    # You're reading this!
