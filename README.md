@@ -25,10 +25,10 @@
 curve2area/
 ├── app/
     ├── static/                  # CSS / JS assets
+       └── plots/                # Saves the plot
 │   ├── templates/
 │   │   ├── index.html           # Main form (upload or input)
 │   │   └── result.html          # Display results
-│   ├── image_processing.py      # Handles image-based curve extraction
 │   ├── integration.py           # Numerical integration logic
 │   └── equation_plotter.py      # Parses, plots, and integrates equations
 │
@@ -95,6 +95,8 @@ You’ll get:
 
 ## 📌 Roadmap
 
+- [ ] Upload graph images and extract curves using OpenCV
+- [ ] Auto-detect x and y axis limits
 - [ ] OCR or axis calibration for graph scales
 - [ ] Annotated output images
 - [ ] Multiple curve handling
