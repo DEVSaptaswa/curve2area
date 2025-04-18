@@ -1,0 +1,35 @@
+{% extends "index.html" %}
+
+{% block content %}
+<div class="container my-5">
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h4 class="card-title mb-4 text-center">🧮 Solve Equation</h4>
+  
+            <form action="/equation" method="POST">
+              <div class="mb-3">
+                <label for="equation" class="form-label">Equation</label>
+                <input type="text" class="form-control" name="equation" placeholder="e.g. sin(x)**2 + x" required>
+              </div>
+  
+              <div class="row mb-3">
+                <div class="col">
+                  <label for="xmin" class="form-label">x min</label>
+                  <input type="text" class="form-control" name="xmin" placeholder="e.g. 0" required>
+                </div>
+                <div class="col">
+                  <label for="xmax" class="form-label">x max</label>
+                  <input type="text" class="form-control" name="xmax" placeholder="e.g. 3.14" required>
+                </div>
+              </div>
+  
+              <button type="submit" class="btn btn-success w-100">Solve & Plot</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

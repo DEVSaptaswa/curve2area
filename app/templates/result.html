@@ -1,0 +1,14 @@
+{% extends "index.html" %}
+{% block content %}
+<div class="container my-5 text-center">
+  <h2 class="mb-4">📊 Graph Result</h2>
+  
+  <img src="..\static\plots\output.png" class="img-fluid rounded shadow" alt="Graph of the equation">
+
+  {% if area %}
+  <p class="mt-4 fs-5 fw-bold">Area under the curve: {{ area }}</p>
+  {% endif %}
+
+  <a href="/equation" class="btn btn-outline-primary mt-4">← Solve another</a>
+</div>
+{% endblock %}

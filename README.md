@@ -13,8 +13,8 @@
 - Auto-detect x and y axis limits
 - Enter mathematical functions like `sin(x)`, `x**2 + 3`, `exp(-x**2)`
 - Specify lower and upper integration limits (e.g. 0 to π)
-- Compute numerical area using trapezoidal or Simpson's rule
-- Display result and visual output (processed image or plot)
+- Compute numerical area using trapezoidal rule
+- Display result and visual output
 - Simple and intuitive web interface (Flask-powered)
 
 ---
