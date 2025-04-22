@@ -17,5 +17,3 @@ def string_to_function(equation_str):
         except (ZeroDivisionError, ValueError, OverflowError, FloatingPointError):
             return np.nan
     return f
-    
-    return f
