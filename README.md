@@ -1,16 +1,13 @@
 # 📐 curve2area
 
-**curve2area** is a web application that calculates the **area under a curve** using two modes:
+**curve2area** is a web application that calculates the **area under a curve** using:
 
-- 📤 **Image Upload:** Analyze a graph image to extract and integrate the plotted curve.
-- ✍️ **Equation Input:** Enter a mathematical function using LaTeX-style syntax with custom limits.
+- ✍️ **Equation Input:** Enter a mathematical function using Python syntax with custom limits.
 
 ---
 
 ## 🚀 Features
 
-- Upload graph images and extract curves using OpenCV
-- Auto-detect x and y axis limits
 - Enter mathematical functions like `sin(x)`, `x**2 + 3`, `exp(-x**2)`
 - Specify lower and upper integration limits (e.g. 0 to π)
 - Compute numerical area using trapezoidal rule
